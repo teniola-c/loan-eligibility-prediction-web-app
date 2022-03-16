@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import pickle
 
-model = pickle.load(open(r"C:\Users\kehin\loan_model.pkl", "rb"))
+model = pickle.load(open(r"C:\Users\kehin\OneDrive\Desktop\st\loan_model.pkl", "rb"))
 
 def run():
     img1 = Image.open(r"C:\Users\kehin\bankpic.jfif")
