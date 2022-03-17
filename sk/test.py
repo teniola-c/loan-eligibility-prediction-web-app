@@ -5,7 +5,7 @@ import pickle
 model = pickle.load(open("loan_model.pkl", "rb"))
 
 def run():
-    img1 = Image.open(r"C:\Users\kehin\bankpic.jfif")
+    img1 = Image.open("bankpic.jfif")
     img1 = img1.resize((400,350))
     st.image(img1, use_column_width = False) 
     st.title("Loan Eligibility prediction web app")
